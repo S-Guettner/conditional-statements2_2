@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <form onsubmit="return false">
-        <label for="range">AQI</label>
-    <input type="range" name="range" id="range" min="0" max="150" oninput="checkAirQuality()"></form>
-
-    <div class="outputConcern">
-        <p>Level of health concern:</p>
-        <p id="healthConcern"></p>
-    </div>
-    <div class="outputEffect">
-        <p>Level of health effect:</p>
-        <p id="healthEffect"></p>
-    </div>
+    <section>
+        <form onsubmit="return false">
+            <label for="range">AQI</label>
+        <input type="range" name="range" id="range" min="0" max="150" oninput="checkAirQuality()"></form>
+    
+        <div class="outputConcern">
+            <p>Level of health concern:</p>
+            <p id="healthConcern"></p>
+        </div>
+        <div class="outputEffect">
+            <p>Level of health effect:</p>
+            <p id="healthEffect"></p>
+        </div>
+    </section>
 
 
     <script src="./assets/js/main.js"></script>
